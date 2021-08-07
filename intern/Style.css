@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+header
+    {
+        background-image: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(bg1.jpg);   
+        height: 100vh;
+        background-size:cover;
+    }
+ul
+    {
+        float: right;
+        list-style-type: none;
+        margin-top: 30px;
+    }
+ul li
+    {
+        display: inline-block;
+    }
+ul li a
+    {
+        text-decoration: none;
+        color: rgb(253, 194, 0);
+        padding: 5px 20px;
+        border: 1px solid transparent;
+        transition: 0.5s ease;
+    }
+ul li a:hover
+    {
+        background-color:rgb(26, 24, 24);
+        color:white;
+    }
+.logo img
+{
+    float: left;
+    width: 215px;
+    height: 85px;
+}
+.main
+{
+    max-width: 1200px;
+    margin: auto;
+}
+.title
+{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1
+{
+    color: rgb(255, 255, 255);
+    font-size: 75px;
+    font-family: Broadway;
+}
+.button
+{
+    position:absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn
+{
+    border: 1px solid transparent;
+    padding: 10px 30px;
+    color: rgb(253, 194, 0);
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+.btn:hover
+{
+    background-color:rgb(0, 0, 0);
+    color:white;
+}
+.about
+{ 
+    background-image: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(bg2.jpg);   
+    height: 80vh;
+    background-size:cover;
+}
+.about h2
+{
+    font-size: 60px;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    font-family:Verdana;
+    
+}
+.about p
+{ 
+    font-style: italic;
+    color: rgb(255, 196, 0);
+    font-family:Verdana;
+    font-size: 30px;
+    position:absolute;
+    top: 143%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+.mv
+{
+    background-image: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(bg1.jpg);   
+    height: 60vh;
+    background-size:cover;
+}
+.mv h2
+{
+   
+    font-size: 60px;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    font-family:Verdana;
+}
+.mv p
+{   
+    font-style: italic;
+    color: rgb(255, 196, 0);
+    font-family:Verdana;
+    font-size: 30px;
+    position:absolute;
+    top: 210%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+
+}
+footer
+{
+    background-color:aqua;
+    padding: 70px 0;
+}
+footer h3
+{
+    font-size: 90px;
+    font-style: italic;
+    color:black;
+    font-family:Verdana;
+}
+footer a
+{   
+    font-size: 90px;
+    color: black;
+    font-family:Verdana;
+    text-decoration: none;
+    padding: 5px 20px;
+    text-align: right;
+}
+.top a
+{
+    float: right;
+    font-size: medium;
+    font-style: inherit;
+    color:black;
+    padding: 5px 20px;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    margin-bottom: 30px;
+}
